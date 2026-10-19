@@ -1,0 +1,82 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 880 620" width="880" height="620" font-family="Segoe UI, Helvetica, Arial, sans-serif" role="img" aria-label="Wireframe of the Enable AWS Transform console setup page, showing identity, encryption, S3 bucket and capability options">
+  <rect width="880" height="620" fill="#ffffff"/>
+
+  <!-- wireframe badge -->
+  <g>
+    <rect x="690" y="10" width="178" height="22" rx="11" fill="#fff4e5" stroke="#d98c00"/>
+    <text x="779" y="25" font-size="11" fill="#8a5a00" text-anchor="middle" font-weight="600">WIREFRAME — not a screenshot</text>
+  </g>
+
+  <!-- console header -->
+  <rect x="12" y="42" width="856" height="40" fill="#232F3E"/>
+  <text x="28" y="67" font-size="14" fill="#ffffff" font-weight="700">aws</text>
+  <rect x="68" y="52" width="250" height="20" rx="3" fill="#3b4859"/>
+  <text x="78" y="66" font-size="11" fill="#c8d1dc">Q  Search for AWS Transform</text>
+  <text x="790" y="67" font-size="11" fill="#c8d1dc">us-east-1 ▾</text>
+
+  <!-- breadcrumb -->
+  <text x="28" y="104" font-size="11" fill="#5a6b7b">AWS Transform  ›  Get started</text>
+
+  <!-- page title -->
+  <text x="28" y="132" font-size="20" fill="#16191f" font-weight="600">Enable AWS Transform</text>
+  <text x="28" y="152" font-size="12" fill="#5a6b7b">Creates a profile in this Region. Some choices below are permanent.</text>
+
+  <!-- CARD 1: user access -->
+  <rect x="28" y="170" width="824" height="132" rx="6" fill="#ffffff" stroke="#d5dbdb"/>
+  <text x="46" y="194" font-size="14" fill="#16191f" font-weight="600">User access</text>
+  <rect x="640" y="180" width="196" height="20" rx="10" fill="#fdecea" stroke="#d13212"/>
+  <text x="738" y="194" font-size="10" fill="#a4160c" text-anchor="middle" font-weight="700">PERMANENT — cannot be changed</text>
+
+  <circle cx="54" cy="218" r="6" fill="#ffffff" stroke="#0972d3" stroke-width="2"/>
+  <circle cx="54" cy="218" r="3" fill="#0972d3"/>
+  <text x="70" y="222" font-size="12" fill="#16191f" font-weight="600">IAM Identity Center</text>
+  <text x="70" y="238" font-size="11" fill="#5a6b7b">SSO, invitation emails, the production choice for teams</text>
+
+  <circle cx="54" cy="258" r="6" fill="#ffffff" stroke="#8d99a8" stroke-width="2"/>
+  <text x="70" y="262" font-size="12" fill="#16191f">Third-party identity provider (Okta, Microsoft Entra ID)</text>
+
+  <circle cx="54" cy="282" r="6" fill="#ffffff" stroke="#8d99a8" stroke-width="2"/>
+  <text x="70" y="286" font-size="12" fill="#16191f">IAM-only access</text>
+  <text x="300" y="286" font-size="11" fill="#5a6b7b">← fastest for a solo learning account</text>
+
+  <!-- CARD 2: encryption -->
+  <rect x="28" y="314" width="404" height="104" rx="6" fill="#ffffff" stroke="#d5dbdb"/>
+  <text x="46" y="338" font-size="14" fill="#16191f" font-weight="600">Encryption key</text>
+  <circle cx="54" cy="362" r="6" fill="#ffffff" stroke="#0972d3" stroke-width="2"/>
+  <circle cx="54" cy="362" r="3" fill="#0972d3"/>
+  <text x="70" y="366" font-size="12" fill="#16191f">AWS managed key</text>
+  <text x="196" y="366" font-size="11" fill="#037f0c">(default, no extra cost)</text>
+  <circle cx="54" cy="388" r="6" fill="#ffffff" stroke="#8d99a8" stroke-width="2"/>
+  <text x="70" y="392" font-size="12" fill="#16191f">Customize encryption settings (KMS)</text>
+
+  <!-- CARD 3: S3 -->
+  <rect x="448" y="314" width="404" height="104" rx="6" fill="#ffffff" stroke="#d5dbdb"/>
+  <text x="466" y="338" font-size="14" fill="#16191f" font-weight="600">Artifact storage (Amazon S3)</text>
+  <circle cx="474" cy="362" r="6" fill="#ffffff" stroke="#0972d3" stroke-width="2"/>
+  <circle cx="474" cy="362" r="3" fill="#0972d3"/>
+  <text x="490" y="366" font-size="12" fill="#16191f">Service-managed bucket</text>
+  <text x="640" y="366" font-size="11" fill="#037f0c">(default)</text>
+  <circle cx="474" cy="388" r="6" fill="#ffffff" stroke="#8d99a8" stroke-width="2"/>
+  <text x="490" y="392" font-size="12" fill="#16191f">Use your own Amazon S3 bucket</text>
+
+  <!-- CARD 4: capabilities -->
+  <rect x="28" y="430" width="824" height="116" rx="6" fill="#ffffff" stroke="#d5dbdb"/>
+  <text x="46" y="454" font-size="14" fill="#16191f" font-weight="600">Capabilities to enable</text>
+  <text x="46" y="472" font-size="11" fill="#5a6b7b">For this guide, enable both.</text>
+
+  <rect x="46" y="484" width="16" height="16" rx="3" fill="#0972d3"/>
+  <path d="M50 492 l3 4 l7 -8" stroke="#ffffff" stroke-width="2" fill="none" stroke-linecap="round"/>
+  <text x="72" y="497" font-size="12" fill="#16191f" font-weight="600">Web application</text>
+  <text x="196" y="497" font-size="11" fill="#5a6b7b">the agentic UI — Parts 1, 2, 4, 8, 9</text>
+
+  <rect x="46" y="512" width="16" height="16" rx="3" fill="#0972d3"/>
+  <path d="M50 520 l3 4 l7 -8" stroke="#ffffff" stroke-width="2" fill="none" stroke-linecap="round"/>
+  <text x="72" y="525" font-size="12" fill="#16191f" font-weight="600">Command line interface (CLI)</text>
+  <text x="258" y="525" font-size="11" fill="#5a6b7b">required for custom transformations — Parts 3, 5, 6, 7</text>
+
+  <!-- actions -->
+  <rect x="690" y="566" width="162" height="34" rx="4" fill="#FF9900"/>
+  <text x="771" y="588" font-size="13" fill="#16191f" text-anchor="middle" font-weight="700">Enable AWS Transform</text>
+  <rect x="600" y="566" width="76" height="34" rx="4" fill="#ffffff" stroke="#8d99a8"/>
+  <text x="638" y="588" font-size="13" fill="#16191f" text-anchor="middle">Cancel</text>
+</svg>

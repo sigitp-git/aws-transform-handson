@@ -1,0 +1,11 @@
+# Your real AWS Transform console captures go here.
+#
+# Filenames and the full capture list are in Appendix A of ../../README.md
+# Start with: 01-budget-created.png
+#
+# Before committing any capture to a PUBLIC repo, redact:
+#   - AWS account ID (12 digits)
+#   - profile / tenant ID inside the web application URL
+#   - email addresses
+#   - IAM user and role names
+#   - private repository URLs

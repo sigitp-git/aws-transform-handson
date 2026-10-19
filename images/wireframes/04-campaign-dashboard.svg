@@ -1,0 +1,86 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 880 500" width="880" height="500" font-family="Segoe UI, Helvetica, Arial, sans-serif" role="img" aria-label="Wireframe of the AWS Transform campaign dashboard showing per-repository transformation status, agent minutes and time saved">
+  <rect width="880" height="500" fill="#ffffff"/>
+
+  <rect x="690" y="10" width="178" height="22" rx="11" fill="#fff4e5" stroke="#d98c00"/>
+  <text x="779" y="25" font-size="11" fill="#8a5a00" text-anchor="middle" font-weight="600">WIREFRAME — not a screenshot</text>
+
+  <rect x="12" y="42" width="856" height="38" fill="#232F3E"/>
+  <text x="28" y="66" font-size="12" fill="#ffffff" font-weight="700">AWS Transform</text>
+  <text x="160" y="66" font-size="11" fill="#c8d1dc">Custom / code  ›  Campaign dashboard</text>
+
+  <text x="28" y="108" font-size="18" fill="#16191f" font-weight="600">Campaign: sdk-v1-to-v2</text>
+  <text x="28" y="128" font-size="12" fill="#5a6b7b">AWS/java-aws-sdk-v1-to-v2 · results logged from the shared atx command</text>
+
+  <!-- KPI tiles -->
+  <rect x="28" y="144" width="196" height="76" rx="6" fill="#ffffff" stroke="#d5dbdb"/>
+  <text x="44" y="166" font-size="11" fill="#5a6b7b">Repositories</text>
+  <text x="44" y="198" font-size="26" fill="#16191f" font-weight="700">12</text>
+
+  <rect x="236" y="144" width="196" height="76" rx="6" fill="#ffffff" stroke="#d5dbdb"/>
+  <text x="252" y="166" font-size="11" fill="#5a6b7b">Succeeded / validated</text>
+  <text x="252" y="198" font-size="26" fill="#037f0c" font-weight="700">9</text>
+  <text x="296" y="198" font-size="12" fill="#5a6b7b">of 12</text>
+
+  <rect x="444" y="144" width="196" height="76" rx="6" fill="#ffffff" stroke="#d5dbdb"/>
+  <text x="460" y="166" font-size="11" fill="#5a6b7b">Agent minutes</text>
+  <text x="460" y="198" font-size="26" fill="#16191f" font-weight="700">184</text>
+  <text x="508" y="198" font-size="11" fill="#8a5a00">← your billing unit</text>
+
+  <rect x="652" y="144" width="196" height="76" rx="6" fill="#ffffff" stroke="#d5dbdb"/>
+  <text x="668" y="166" font-size="11" fill="#5a6b7b">Est. engineer time saved</text>
+  <text x="668" y="198" font-size="26" fill="#037f0c" font-weight="700">310 h</text>
+
+  <!-- table -->
+  <rect x="28" y="236" width="820" height="200" rx="6" fill="#ffffff" stroke="#d5dbdb"/>
+  <rect x="28" y="236" width="820" height="28" fill="#f4f6f8"/>
+  <text x="46" y="255" font-size="11" fill="#5a6b7b" font-weight="700">Repository</text>
+  <text x="266" y="255" font-size="11" fill="#5a6b7b" font-weight="700">Status</text>
+  <text x="406" y="255" font-size="11" fill="#5a6b7b" font-weight="700">Build</text>
+  <text x="520" y="255" font-size="11" fill="#5a6b7b" font-weight="700">Commits</text>
+  <text x="630" y="255" font-size="11" fill="#5a6b7b" font-weight="700">Agent min</text>
+  <text x="750" y="255" font-size="11" fill="#5a6b7b" font-weight="700">Review</text>
+
+  <g font-size="11" fill="#16191f">
+    <!-- row 1 -->
+    <line x1="28" y1="292" x2="848" y2="292" stroke="#eaeded"/>
+    <text x="46" y="284" font-family="monospace">service-a</text>
+    <circle cx="272" cy="280" r="4" fill="#037f0c"/><text x="284" y="284" fill="#037f0c">Complete</text>
+    <text x="406" y="284" fill="#037f0c">passed</text>
+    <text x="520" y="284">7</text><text x="630" y="284">14</text>
+    <text x="750" y="284" fill="#0972d3">git diff →</text>
+
+    <!-- row 2 -->
+    <line x1="28" y1="328" x2="848" y2="328" stroke="#eaeded"/>
+    <text x="46" y="320" font-family="monospace">service-b</text>
+    <circle cx="272" cy="316" r="4" fill="#037f0c"/><text x="284" y="320" fill="#037f0c">Complete</text>
+    <text x="406" y="320" fill="#037f0c">passed</text>
+    <text x="520" y="320">4</text><text x="630" y="320">9</text>
+    <text x="750" y="320" fill="#0972d3">git diff →</text>
+
+    <!-- row 3 - partial -->
+    <line x1="28" y1="364" x2="848" y2="364" stroke="#eaeded"/>
+    <text x="46" y="356" font-family="monospace">service-c</text>
+    <circle cx="272" cy="352" r="4" fill="#d98c00"/><text x="284" y="356" fill="#8a5a00">Needs follow-up</text>
+    <text x="406" y="356" fill="#d13212">failed</text>
+    <text x="520" y="356">5</text><text x="630" y="356">22</text>
+    <text x="750" y="356" fill="#0972d3">report →</text>
+
+    <!-- row 4 - running -->
+    <line x1="28" y1="400" x2="848" y2="400" stroke="#eaeded"/>
+    <text x="46" y="392" font-family="monospace">service-d</text>
+    <circle cx="272" cy="388" r="4" fill="#0972d3"/><text x="284" y="392" fill="#0972d3">Running</text>
+    <text x="406" y="392" fill="#8d99a8">—</text>
+    <text x="520" y="392">2</text><text x="630" y="392">6</text>
+    <text x="750" y="392" fill="#8d99a8">—</text>
+
+    <!-- row 5 - skipped -->
+    <text x="46" y="428" font-family="monospace">service-e</text>
+    <circle cx="272" cy="424" r="4" fill="#8d99a8"/><text x="284" y="428" fill="#5a6b7b">Skipped (dirty tree)</text>
+    <text x="406" y="428" fill="#8d99a8">—</text>
+    <text x="520" y="428">0</text><text x="630" y="428">0</text>
+    <text x="750" y="428" fill="#8d99a8">—</text>
+  </g>
+
+  <text x="28" y="462" font-size="11" fill="#5a6b7b">"Needs follow-up" is the normal outcome on legacy code: a well-started branch plus a precise punch list.</text>
+  <text x="28" y="482" font-size="11" fill="#5a6b7b">Ask the dashboard questions in chat, e.g. "which repos failed validation and why?"</text>
+</svg>

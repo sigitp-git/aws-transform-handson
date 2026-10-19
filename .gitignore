@@ -1,0 +1,17 @@
+# Scratch output generated while following the guide (Part 7 campaign runner)
+campaign-logs/
+*.base-sha
+
+# Local scratch / exports
+diagrams-export/
+*.tmp
+
+# OS noise
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Editor
+.vscode/
+.idea/
+*.swp
