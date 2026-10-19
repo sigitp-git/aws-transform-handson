@@ -2339,4 +2339,15 @@ Every factual claim in this guide is drawn from AWS's own documentation and anno
 
 ---
 
+## License
+
+This guide — the text, the Mermaid diagrams, and the SVG wireframes — is released under the [MIT License](LICENSE). Copy it, adapt it, teach from it, publish from it. Attribution is appreciated but not required.
+
+Two things MIT does **not** cover, because they aren't mine to license:
+
+- **AWS documentation content.** Facts and capability descriptions throughout are summarized from AWS's own docs and blog posts, all linked in [Sources](#sources). That material remains subject to AWS's terms.
+- **Your screenshots.** Anything you capture in `images/screenshots/` is yours, and so is the responsibility to redact it before publishing (see [Appendix A](#appendix-a--screenshot-capture-plan)).
+
+---
+
 *Guide written to be followed in order. If you get stuck on a lab, the checkpoint above it tells you exactly what "working" looks like — debug toward that, not toward the next step.*
